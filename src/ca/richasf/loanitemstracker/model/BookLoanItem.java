@@ -30,7 +30,7 @@ public final class BookLoanItem extends LoanItem {
      * Should be "Book".
      */
     @Override
-    public String getTypeAsString() {
+    public String getType() {
         return "Book";
     }
 

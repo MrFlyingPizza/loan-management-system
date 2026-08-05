@@ -29,7 +29,7 @@ public final class AudioLoanItem extends LoanItem {
      * Should be "Audio".
      */
     @Override
-    public String getTypeAsString() {
+    public String getType() {
         return "Audio";
     }
 

@@ -43,7 +43,7 @@ public class LoanItemsPrintCollector implements Collector<LoanItem, StringBuilde
             }
 
             sb.append('#').append(++itemNumber).append('\n');
-            sb.append("Loan Item Type: ").append(item.getTypeAsString()).append('\n');
+            sb.append("Loan Item Type: ").append(item.getType()).append('\n');
             sb.append(item.getName()).append('\n');
             sb.append("- published by ").append(item.getPublisher()).append('\n');
             sb.append("- loaned to ").append(item.getLoanedTo()).append('\n');

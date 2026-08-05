@@ -26,7 +26,7 @@ class LoanItemView {
     LoanItemView(LoanItem loanItem) {
         panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
 
-        var type = "Type: " + loanItem.getTypeAsString();
+        var type = "Type: " + loanItem.getType();
         var name = loanItem.getName();
         var publishedBy = "Published by " + loanItem.getPublisher();
         var loanedTo = "Loaned to " + loanItem.getLoanedTo();

@@ -31,7 +31,7 @@ public final class VideoLoanItem extends LoanItem {
      * Should be "Video".
      */
     @Override
-    public String getTypeAsString() {
+    public String getType() {
         return "Video";
     }
 
